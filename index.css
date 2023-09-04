@@ -1,11 +1,64 @@
-h1 {
-    color: mediumslateblue;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-p  {
-    background-color: green;
+/*
+    [symbol_selector][selector_name] {
+        [properties]: [value];
+    }
+
+    // example
+    <div class="my-selector">Texy</div>
+
+    .my-selector {
+        position: relative;
+    }
+
+    [.] -> class selector
+    [my-selector] -> class name
+*/
+
+#container {
+    position: relative;
+    background-color: #333;
+    display: flex;
 }
 
-a {
-    background-color: aqua;
+.icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+}
+
+#logo {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    margin-right: auto;
+}
+
+#logo img {
+    margin: auto;
+}
+
+#search {
+    width: 48px;
+    height: 48px;
+    filter: invert(70%);
+    display: flex;
+}
+
+#search img {
+    margin: auto;
+}
+
+#toggle {
+    width: 48px;
+    height: 48px;
+    display: flex;
+}
+
+#toggle img {
+    margin: auto;
 }
